@@ -1,0 +1,86 @@
+/* =========================================================
+   1. TRES ESTILOS DE ETIQUETA (body, h1, h2)
+   ========================================================= */
+
+/* Etiqueta body: letra Verdana, 12px, normal, color negro, margen 20px y fondo azul claro (#DFF5FD) */
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+    margin: 20px;
+    background-color: #DFF5FD;
+}
+
+/* Etiqueta h1: Arial, 36px, negrita, azul oscuro, centrado, fondo blanco, borde delgado arriba/abajo y margen 20px auto */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-top: thin solid darkblue;    /* Borde delgado arriba */
+    border-bottom: thin solid darkblue; /* Borde delgado abajo */
+    margin: 20px auto;
+}
+
+/* Etiqueta h2: tamaño 16px y en negrita */
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* =========================================================
+   2. DOS CLASES (.TimesRojo y .TimesVerde)
+   ========================================================= */
+
+/* Clase TimesRojo: fuente Times New Roman, 14px, negrita y color rojo */
+.TimesRojo {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Clase TimesVerde: fuente Times New Roman, 14px, negrita y color verde */
+.TimesVerde {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+}
+
+
+/* =========================================================
+   3. DOS CAPAS TIPO ID (div) PARA LOS RECUADROS
+   ========================================================= */
+
+/* Primera capa (#recuadro1) para Datos Personales con los valores indicados en la práctica */
+#recuadro1 {
+    background-color: #F5A9A9;          /* Fondo rosado */
+    font-size: 14px;
+    color: #74030A;                     /* Texto granate oscuro */
+    font-family: Arial, Times, sans-serif;
+    border: solid 3px #74030A;          /* Borde continuo de 3px */
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    width: 50%;                         /* Utiliza porcentajes para que se adapte a la resolución */
+    border-radius: 25px;                /* Borde redondeado */
+    box-shadow: 2px 2px 5px black;      /* Sombra */
+}
+
+/* Segunda capa (#recuadro2) para el resto del CV: fondo celeste, texto azul oscuro y borde punteado */
+#recuadro2 {
+    background-color: #99D6FF;          /* Fondo azul celeste como en la foto de la práctica */
+    font-size: 14px;
+    color: #00008B;                     /* Texto en azul marino oscuro */
+    font-family: Arial, Times, sans-serif;
+    border: dotted 3px #00008B;         /* Borde punteado (dotted) en azul oscuro */
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    width: 50%;                         /* Utiliza porcentajes para que se adapte a la resolución */
+    border-radius: 25px;                /* Borde redondeado */
+    box-shadow: 2px 2px 5px black;      /* Sombra */
+}
