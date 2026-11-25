@@ -1,0 +1,105 @@
+/* Color de fondo gris claro y tipo de letra de toda la página */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f4f5f7;
+    color: #1f2937;
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+/* Centra todo el contenido en medio de la pantalla */
+.contenedor {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Espacio y línea gris debajo del título de arriba */
+header {
+    margin-bottom: 32px;
+    border-bottom: 1px solid #d1d5db;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Botón azul "Drive" de la parte de arriba */
+.boton-drive {
+    background: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.15s;
+}
+
+/* Se oscurece un poco y sube al pasar el ratón */
+.boton-drive:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* Tamaño del título grande */
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #111827;
+}
+
+/* Color del texto pequeño debajo del título */
+header p {
+    margin: 6px 0 0;
+    color: #4b5563;
+}
+
+/* Coloca las cajas de los trabajos una debajo de otra */
+.lista-trabajos {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* Aspecto de cada caja blanca donde puedes hacer clic */
+.tarjeta {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 18px 22px;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: border-color 0.2s, transform 0.15s;
+}
+
+/* Hace que el borde se ponga azul y la caja suba un poco al pasar el ratón */
+.tarjeta:hover {
+    border-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+/* Tamaño del título de cada trabajo */
+.tarjeta h2 {
+    margin: 0 0 4px;
+    font-size: 1.1rem;
+    color: #111827;
+}
+
+/* Tamaño de la explicación pequeña de cada trabajo */
+.tarjeta p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+/* Color azul de la flechita de la derecha */
+.flecha {
+    font-size: 1.2rem;
+    color: #2563eb;
+    font-weight: bold;
+}
